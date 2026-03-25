@@ -3,18 +3,140 @@
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>BizGrowth Africa — African Business News &amp; Intelligence</title>
+        <meta name="description" content="Original, actionable business news for Africa’s founders and MSMEs: markets, policy, funding, and deep-dive analysis.">
         <meta charset="UTF-8">
+        <meta property="og:description" content="Original, actionable business news for Africa’s founders and MSMEs: markets, policy, funding, and deep-dive analysis.">
         <meta name="twitter:card" content="summary">
         <meta name="twitter:title" content="BizGrowth Africa — African Business News &amp; Intelligence">
         <link rel="canonical" href="https://www.bizgrowthafrica.com/">
-        <link rel="stylesheet" href="/index-sytle.scss">
+        <link rel="stylesheet" href="index-style.css">
     </head>
     <body>
         <div id="root">
             <div class="flex min-h-screen flex-col bg-white dark:bg-[#0B1220]">
                 <header class="border-b bg-gradient-to-b from-white to-gray-50 dark:from-[#0B1220] dark:to-[#0A0F1A] dark:border-gray-800">
-                        <a class="flex items-center gap-2" href="/" data-discover="true"><img alt="BizGrowth Africa" class="h-10 w-auto object-contain" src="https://bizgrowthafrica.com/assets/bizgrowth3-Bo2k5aux.png"><span class="text-lg font-bold text-gray-900 dark:text-white">BizGrowth Africa</span></a>
+                    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+                        <div class="flex h-16 items-center justify-between">
+                            <a class="flex items-center gap-2" href="/" data-discover="true"><img alt="BizGrowth Africa" class="h-10 w-auto object-contain" src="https://bizgrowthafrica.com/assets/bizgrowth3-Bo2k5aux.png"><span class="text-lg font-bold text-gray-900 dark:text-white">BizGrowth Africa</span>
+                            </a>
+                            <nav class="hidden items-center gap-6 md:flex">
+                                <a aria-current="page" class="px-2 py-1 text-sm font-medium transition relative group text-primary" href="/" data-discover="true">Home
+                                    <span class="absolute bottom-0 left-2 right-2 h-0.5 bg-primary transition-all duration-300 w-full"></span>
+                                </a>
+                                <a aria-current="page" class="px-2 py-1 text-sm font-medium transition relative group text-primary" href="/" data-discover="true">Opportunities
+                                    <span class="absolute bottom-0 left-2 right-2 h-0.5 bg-primary transition-all duration-300 w-full"></span>
+                                </a>
+                                <a aria-current="page" class="px-2 py-1 text-sm font-medium transition relative group text-primary" href="/" data-discover="true">Procurement & Tenders
+                                    <span class="absolute bottom-0 left-2 right-2 h-0.5 bg-primary transition-all duration-300 w-full"></span>
+                                </a>
+                                <a aria-current="page" class="px-2 py-1 text-sm font-medium transition relative group text-primary" href="/" data-discover="true">News & Insights
+                                    <span class="absolute bottom-0 left-2 right-2 h-0.5 bg-primary transition-all duration-300 w-full"></span>
+                                </a>
+                                <a aria-current="page" class="px-2 py-1 text-sm font-medium transition relative group text-primary" href="/" data-discover="true">Tools & Templates
+                                    <span class="absolute bottom-0 left-2 right-2 h-0.5 bg-primary transition-all duration-300 w-full"></span>
+                                </a>
+                                <a aria-current="page" class="px-2 py-1 text-sm font-medium transition relative group text-primary" href="/" data-discover="true">About
+                                    <span class="absolute bottom-0 left-2 right-2 h-0.5 bg-primary transition-all duration-300 w-full"></span>
+                                </a>
+                                <a aria-current="page" class="px-2 py-1 text-sm font-medium transition relative group text-primary" href="/" data-discover="true">Community
+                                    <span class="absolute bottom-0 left-2 right-2 h-0.5 bg-primary transition-all duration-300 w-full"></span>
+                                </a>
+                                <a aria-current="page" class="px-2 py-1 text-sm font-medium transition relative group text-primary" href="/" data-discover="true">Contact
+                                    <span class="absolute bottom-0 left-2 right-2 h-0.5 bg-primary transition-all duration-300 w-full"></span>
+                                </a>
+                            </nav>
+                            <div class="hidden md:block">
+                                <button type="button" aria-label="Toggle dark mode" class="ml-2 inline-flex h-8 w-8 items-center justify-center rounded-md border border-gray-300 text-gray-700 transition hover:bg-gray-50 dark:border-gray-700 dark:text-gray-200 dark:hover:bg-gray-800" title="Switch to dark mode">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-sun" aria-hidden="true"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2"></path><path d="M12 20v2"></path><path d="m4.93 4.93 1.41 1.41"></path><path d="m17.66 17.66 1.41 1.41"></path><path d="M2 12h2"></path><path d="M20 12h2"></path><path d="m6.34 17.66-1.41 1.41"></path><path d="m19.07 4.93-1.41 1.41"></path></svg>
+                                </button>
+                            </div>
+                            <div class="relative md:hidden">
+                                <button type="button" aria-label="Open menu" class="ml-2 inline-flex h-9 w-9 items-center justify-center rounded-md border border-gray-300 text-gray-700 transition hover:bg-gray-50 dark:border-gray-700 dark:text-gray-200 dark:hover:bg-gray-800">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-menu" aria-hidden="true"><path d="M4 5h16"></path><path d="M4 12h16"></path><path d="M4 19h16"></path></svg>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
                 </header>
+                <main></main>
+                <footer class="relative mt-16 bg-gradient-to-b from-white to-gray-50 dark:from-[#0B1220] dark:to-[#0A0F1A] text-gray-900 dark:text-white border-t border-gray-200 dark:border-white/10">
+                    <div class="absolute inset-0 overflow-hidden pointer-events-none">
+                        <div class="absolute top-0 left-0 w-96 h-96 bg-primary/5 rounded-full blur-3xl -translate-x-1/2 -translate-y-1/2"></div>
+                        <div class="absolute bottom-0 right-0 w-96 h-96 bg-primary/5 rounded-full blur-3xl translate-x-1/2 translate-y-1/2"></div>
+                    </div>
+                    <div class="relative mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
+                        <div class="mt-12 pt-8 border-t border-gray-200 dark:border-white/10">
+                            <div class="text-center">
+                                <p class="text-xs text-gray-500 dark:text-gray-400">
+                                    © 2026 BizGrowth Africa. All rights reserved.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="grid gap-10 sm:grid-cols-2 lg:grid-cols-4">
+                            <div class="space-y-4">
+                                <div class="flex items-center gap-2.5">
+                                    <img alt="BizGrowth Africa" class="h-11 w-auto object-contain" src="https://bizgrowthafrica.com/assets/bizgrowth3-Bo2k5aux.png">
+                                    <span class="text-xl font-bold text-gray-900 dark:text-white">BizGrowth Africa</span>
+                                </div>
+                                <p class="text-sm leading-relaxed text-gray-600 dark:text-gray-400 max-w-xs">Curated business news, opportunities, tenders, tools and community for African MSMEs.</p>
+                                <div class="flex items-center gap-2.5 text-sm text-gray-700 dark:text-gray-300 pt-2">
+                                    <div class="flex items-center justify-center w-8 h-8 rounded-lg bg-primary/10 dark:bg-primary/20">
+                                        <svg data-prefix="fas" data-icon="envelope" class="svg-inline--fa fa-envelope text-primary fa-sm" role="img" viewBox="0 0 512 512" aria-hidden="true"><path fill="currentColor" d="M48 64c-26.5 0-48 21.5-48 48 0 15.1 7.1 29.3 19.2 38.4l208 156c17.1 12.8 40.5 12.8 57.6 0l208-156c12.1-9.1 19.2-23.3 19.2-38.4 0-26.5-21.5-48-48-48L48 64zM0 196L0 384c0 35.3 28.7 64 64 64l384 0c35.3 0 64-28.7 64-64l0-188-198.4 148.8c-34.1 25.6-81.1 25.6-115.2 0L0 196z"></path></svg>
+                                    </div>
+                                    <a href="mailto:info@bizgrowthafrica.com" class="hover:text-primary hover:underline transition-colors font-medium">info@bizgrowthafrica.com</a>
+                                </div>
+                            </div>
+                            <div class="space-y-4">
+                                <h4 class="text-sm font-bold uppercase tracking-wider text-gray-900 dark:text-white mb-1">Explore</h4>
+                                <ul class="space-y-2.5">
+                                    <li><a href="/news-insights" class="text-sm text-gray-600 dark:text-gray-400 hover:text-primary dark:hover:text-primary transition-colors relative group">News &amp; Insights<span class="absolute bottom-0 left-0 w-0 h-0.5 bg-primary transition-all duration-300 group-hover:w-full"></span></a>
+                                    </li>
+                                    <li><a href="/opportunities" class="text-sm text-gray-600 dark:text-gray-400 hover:text-primary dark:hover:text-primary transition-colors relative group">Opportunities<span class="absolute bottom-0 left-0 w-0 h-0.5 bg-primary transition-all duration-300 group-hover:w-full"></span></a>
+                                    </li>
+                                    <li><a href="/procurement-tenders" class="text-sm text-gray-600 dark:text-gray-400 hover:text-primary dark:hover:text-primary transition-colors relative group">Procurement &amp; Tenders<span class="absolute bottom-0 left-0 w-0 h-0.5 bg-primary transition-all duration-300 group-hover:w-full"></span></a>
+                                    </li>
+                                    <li><a href="/tools-templates" class="text-sm text-gray-600 dark:text-gray-400 hover:text-primary dark:hover:text-primary transition-colors relative group">Tools &amp; Templates<span class="absolute bottom-0 left-0 w-0 h-0.5 bg-primary transition-all duration-300 group-hover:w-full"></span></a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="space-y-4">
+                                <h4 class="text-sm font-bold uppercase tracking-wider text-gray-900 dark:text-white mb-1">Company</h4>
+                                <ul class="space-y-2.5">
+                                    <li><a href="/about" class="text-sm text-gray-600 dark:text-gray-400 hover:text-primary dark:hover:text-primary transition-colors relative group">About<span class="absolute bottom-0 left-0 w-0 h-0.5 bg-primary transition-all duration-300 group-hover:w-full"></span></a>
+                                    </li>
+                                    <li><a href="/community" class="text-sm text-gray-600 dark:text-gray-400 hover:text-primary dark:hover:text-primary transition-colors relative group">Community<span class="absolute bottom-0 left-0 w-0 h-0.5 bg-primary transition-all duration-300 group-hover:w-full"></span></a>
+                                    </li>
+                                    <li><a href="/contact" class="text-sm text-gray-600 dark:text-gray-400 hover:text-primary dark:hover:text-primary transition-colors relative group">Contact<span class="absolute bottom-0 left-0 w-0 h-0.5 bg-primary transition-all duration-300 group-hover:w-full"></span></a>
+                                    </li>
+                                    <li><a href="/privacy-policy" class="text-sm text-gray-600 dark:text-gray-400 hover:text-primary dark:hover:text-primary transition-colors relative group">Privacy Policy<span class="absolute bottom-0 left-0 w-0 h-0.5 bg-primary transition-all duration-300 group-hover:w-full"></span></a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div id="newsletter" class="space-y-4 scroll-mt-20">
+                                <div>
+                                    <h4 class="text-sm font-bold uppercase tracking-wider text-gray-900 dark:text-white mb-2">Newsletter</h4><p class="text-xs leading-relaxed text-gray-600 dark:text-gray-400">Subscribe to our newsletter to stay updated with the latest business news, opportunities, and insights.</p>
+                                    <form class="space-y-2.5">
+                                        <input required="" placeholder="First Name" class="w-full rounded-lg border border-gray-300 dark:border-white/20 bg-white dark:bg-white/5 px-3.5 py-2.5 text-sm text-gray-900 dark:text-white outline-none placeholder:text-gray-400 dark:placeholder:text-gray-500 focus:border-primary focus:ring-2 focus:ring-primary/20 transition-all" type="text" value="" name="firstName">
+                                        <input required="" placeholder="Last Name" class="w-full rounded-lg border border-gray-300 dark:border-white/20 bg-white dark:bg-white/5 px-3.5 py-2.5 text-sm text-gray-900 dark:text-white outline-none placeholder:text-gray-400 dark:placeholder:text-gray-500 focus:border-primary focus:ring-2 focus:ring-primary/20 transition-all" type="text" value="" name="lastName">
+                                        <div class="flex gap-2">
+                                            <input required="" placeholder="Email address" class="w-full flex-1 rounded-lg border border-gray-300 dark:border-white/20 bg-white dark:bg-white/5 px-3.5 py-2.5 text-sm text-gray-900 dark:text-white outline-none placeholder:text-gray-400 dark:placeholder:text-gray-500 focus:border-primary focus:ring-2 focus:ring-primary/20 transition-all" type="email" value="" name="email">
+                                            <button type="submit" class="rounded-lg bg-primary px-4 py-2.5 text-sm font-semibold text-white disabled:opacity-50 disabled:cursor-not-allowed whitespace-nowrap hover:bg-primary/90 focus:outline-none focus:ring-2 focus:ring-primary/50 focus:ring-offset-2 transition-all shadow-sm hover:shadow-md">Subscribe
+                                            </button>
+                                        </div>
+                                    </form>
+                                    <div class="flex items-center gap-3 pt-2">
+                                        <a href="https://x.com/BizGrowthAfrica" target="_blank" rel="noopener noreferrer" aria-label="X (Twitter)" class="inline-flex h-10 w-10 items-center justify-center rounded-lg bg-gray-100 dark:bg-white/10 transition-all hover:scale-110 hover:shadow-md hover:bg-black hover:text-white group" style="color: rgb(0, 0, 0);"><svg data-prefix="fab" data-icon="x-twitter" class="svg-inline--fa fa-x-twitter group-hover:text-white fa-sm" role="img" viewBox="0 0 448 512" aria-hidden="true"><path fill="currentColor" d="M357.2 48L427.8 48 273.6 224.2 455 464 313 464 201.7 318.6 74.5 464 3.8 464 168.7 275.5-5.2 48 140.4 48 240.9 180.9 357.2 48zM332.4 421.8l39.1 0-252.4-333.8-42 0 255.3 333.8z"></path></svg>
+                                        </a>
+                                        <a href="https://www.instagram.com/bizgrowth_africa?igsh=d3d0OWJuMHU3dms5&amp;utm_source=qr" target="_blank" rel="noopener noreferrer" aria-label="Instagram" class="inline-flex h-10 w-10 items-center justify-center rounded-lg bg-gray-100 dark:bg-white/10 transition-all hover:scale-110 hover:shadow-md hover:bg-[#E4405F] hover:text-white group" style="color: rgb(228, 64, 95);"><svg data-prefix="fab" data-icon="instagram" class="svg-inline--fa fa-instagram group-hover:text-white fa-sm" role="img" viewBox="0 0 448 512" aria-hidden="true"><path fill="currentColor" d="M224.3 141a115 115 0 1 0 -.6 230 115 115 0 1 0 .6-230zm-.6 40.4a74.6 74.6 0 1 1 .6 149.2 74.6 74.6 0 1 1 -.6-149.2zm93.4-45.1a26.8 26.8 0 1 1 53.6 0 26.8 26.8 0 1 1 -53.6 0zm129.7 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM399 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"></path></svg>
+                                        </a>
+                                        <a href="https://www.facebook.com/share/1ARErnneyb/?mibextid=wwXIfr" target="_blank" rel="noopener noreferrer" aria-label="Facebook" class="inline-flex h-10 w-10 items-center justify-center rounded-lg bg-gray-100 dark:bg-white/10 transition-all hover:scale-110 hover:shadow-md hover:bg-[#1877F2] hover:text-white group" style="color: rgb(24, 119, 242);"><svg data-prefix="fab" data-icon="facebook" class="svg-inline--fa fa-facebook group-hover:text-white fa-sm" role="img" viewBox="0 0 512 512" aria-hidden="true"><path fill="currentColor" d="M512 256C512 114.6 397.4 0 256 0S0 114.6 0 256C0 376 82.7 476.8 194.2 504.5l0-170.3-52.8 0 0-78.2 52.8 0 0-33.7c0-87.1 39.4-127.5 125-127.5 16.2 0 44.2 3.2 55.7 6.4l0 70.8c-6-.6-16.5-1-29.6-1-42 0-58.2 15.9-58.2 57.2l0 27.8 83.6 0-14.4 78.2-69.3 0 0 175.9C413.8 494.8 512 386.9 512 256z"></path></svg>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </footer>
             </div>
         </div>
     </body>
